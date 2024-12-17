@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-10T08:32:38 EST" name="Suite" finished-at="2024-12-10T08:32:51 EST" duration-ms="12815">
+    <groups>
+    </groups>
+    <test started-at="2024-12-10T08:32:38 EST" name="Test" finished-at="2024-12-10T08:32:51 EST" duration-ms="12815">
+      <class name="com.test.Multiple">
+        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.Multiple@7e057f43]" started-at="2024-12-10T08:32:43 EST" name="Initalization" finished-at="2024-12-10T08:32:46 EST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initalization -->
+        <test-method signature="MouseHovering()[pri:1, instance:com.test.Multiple@7e057f43]" started-at="2024-12-10T08:32:46 EST" name="MouseHovering" finished-at="2024-12-10T08:32:50 EST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHovering -->
+        <test-method signature="DropDown()[pri:2, instance:com.test.Multiple@7e057f43]" started-at="2024-12-10T08:32:50 EST" name="DropDown" finished-at="2024-12-10T08:32:51 EST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.test.Multiple@7e057f43]" started-at="2024-12-10T08:32:51 EST" name="CleanUp" finished-at="2024-12-10T08:32:51 EST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- com.test.Multiple -->
+      <class name="com.test.DragDrop">
+        <test-method signature="DragDropTest()[pri:0, instance:com.test.DragDrop@3e27ba32]" started-at="2024-12-10T08:32:38 EST" name="DragDropTest" finished-at="2024-12-10T08:32:43 EST" duration-ms="4310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragDropTest -->
+      </class> <!-- com.test.DragDrop -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
